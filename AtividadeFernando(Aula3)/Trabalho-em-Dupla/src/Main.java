@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        String caminhoArquivo = "C:\\Users\\Paulo Henrique\\OneDrive\\Área de Trabalho\\AtividadeFernando(Aula3)\\Trabalho-em-Dupla\\src\\dados100mil.txt";
+        String caminhoArquivo = "C:\\Users\\Samara\\OneDrive\\Área de Trabalho\\AtividadeFernando(Aula3)\\Trabalho-em-Dupla\\src\\dados100mil.txt";
         int[] dadosOriginais = lerArquivo(caminhoArquivo);
 
         if (dadosOriginais == null || dadosOriginais.length == 0) {
